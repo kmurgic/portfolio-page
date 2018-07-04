@@ -1,0 +1,21 @@
+@import './_shared.scss';
+
+#nav-item {
+  position: relative;
+  bottom: 10px;
+  display: inline;
+  margin: 0 calc(4% + 5px);
+  font-family: serif;
+
+  .link {
+    text-decoration: none;
+    color: $beige-yellow;
+    &:hover {
+      color: $purple;
+      cursor: pointer;
+    }
+    &.selected {
+      color: $purple;
+    }
+  }
+}

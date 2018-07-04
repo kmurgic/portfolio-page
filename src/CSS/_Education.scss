@@ -1,0 +1,101 @@
+@import './_shared.scss';
+
+#education {
+  margin: 130px 10px;
+  @media screen and (max-width: $break-md) {
+    text-align: center;
+  }
+
+  h2 {
+    color: #FFAA88;
+    font-size: 36px;
+  }
+
+  h3 {
+    color: #FFD853;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+
+  .fcc-link {
+    margin-left: 35px;
+
+    a {
+      font-size: 24px;
+      color: $beige-yellow;
+      &:visited {
+        color: $purple;
+      }
+    }
+
+    @media screen and (max-width: $break-md) {
+    text-align: center;
+    margin-left: 0px;
+  }
+  }
+
+  .course {
+    color: white;
+    font-size: 20px;
+    @media screen and (max-width: $break-md) {
+    margin-left: 0px;
+  }
+    margin-left: 35px;
+
+    p {
+      display: inline;
+    }
+
+    span {
+      display: inline;
+      position: absolute;
+      left: calc(100% - 175px);
+      @media screen and (max-width: $break-md) {
+        display: block;
+        position: static;
+        margin: 5px auto 10px auto;
+        color: yellow;
+      }
+
+      &#md-date {
+        display: inline;
+        @media screen and (max-width: $break-md) {
+          display: none;
+        }
+      }
+
+      &#sm-date {
+        display: none;
+        @media screen and (max-width: $break-md) {
+          display: block;
+        }
+      }
+
+    }
+  }
+  ul {
+    @extend %flex;
+
+    @media screen and (max-width: $break-md) {
+      display: block;
+    }
+
+    li {
+      color: white;
+      flex-shrink: 0;
+      width: 250px;
+      text-align: left;
+      margin: auto 20px;
+      font-size: 20px;
+      @media screen and (max-width: $break-md) {
+        width: 100%;
+        text-align: center;
+        list-style-type: none;
+        position: relative;
+        right: 30px;
+      }
+    }
+  }
+
+}

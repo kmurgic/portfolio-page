@@ -1,0 +1,18 @@
+//variables
+
+$purple: #500080;
+$blue: #005080;
+$beige-yellow: #D3D3A0;
+$break-md: 600px;
+$break-sm: 400px;
+
+
+//placeholders
+%flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+//mix-ins

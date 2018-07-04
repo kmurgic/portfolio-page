@@ -1,0 +1,72 @@
+@import './_shared.scss';
+
+#home {
+  text-align: center;
+  margin-top: 200px;
+
+  #name {
+    text-align: center;
+    color: $beige-yellow;
+    font: bold 36px helvetica;
+    text-shadow:  1px 1px black;
+
+    padding: 20px;
+    width:230px;
+    max-width: 80%;
+
+    margin:auto;
+    background-color: $blue;
+    border: 3px outset $beige-yellow;
+  }
+
+  #job-title {
+    position: relative;
+    top: -16px;
+    left: 55px;
+    margin: auto;
+
+    text-align: center;
+    color: #058;
+    font: 500 22px sans-serif;
+    text-shadow: 1px 0px black;
+
+    padding: 10px;
+    background-color: #DDA;
+    opacity: 1;
+    width: 210px;
+    max-width: 80%;
+    border: 3px outset #058;
+
+    @media screen and (max-width: $break-sm) {
+      left: 0px;
+    }
+  }
+
+
+
+  #media-links {
+      margin-top: 80px;
+    a {
+      display: inline-block;
+      padding: 10px 20px 20px 20px;
+      line-height: 40px;
+      font: 20px serif;
+      margin: 10px;
+      background-color: #CCC;
+      border: 3px outset #888;
+      white-space: nowrap;
+      color: $purple;
+      text-decoration: none;
+
+      i {
+        position: relative;
+        top: 5px;
+        color: $purple;
+        font-size: 32px;
+        margin-right: 10px;
+      }
+    }
+
+  }
+
+}
