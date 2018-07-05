@@ -76,6 +76,7 @@
   }
   ul {
     @extend %flex;
+    justify-content: space-between;
 
     @media screen and (max-width: $break-md) {
       display: block;

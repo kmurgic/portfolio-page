@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ProjectBox from './ProjectBox'
-import projects from '../myProjects'
 
 class Projects extends Component {
   state = {
@@ -28,11 +27,12 @@ class Projects extends Component {
   }
 
   render () {
-    console.log(projects)
 
     return (
       <div id='projects'>
+        <div id='button-container'>
         {this.renderButtons(['All', 'FreeCodeCamp', 'React'])}
+        </div>
         <ProjectBox />
       </div>
     )
