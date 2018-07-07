@@ -27,13 +27,13 @@ const projects = [
     additionalTags: ['game']
   },
   {
-    image: './screenshots/wikipedia-viewer.png',
+    image: './screenshots/Wikipedia-viewer.png',
     title: 'Wikipedia Viewer',
-    description: 'The Wikipedia Viewer is a FreeCodeCamp project.  A user can click on get random article to get a random wikipedia article, or search for an article on wikipedia and see up to 12 results with descriptions and links to Wikipedia articles.',
+    description: 'The Wikipedia Viewer is a freeCodeCamp project.  A user can click on get random article to get a random Wikipedia article, or search for an article on Wikipedia and see up to 12 results with descriptions and links to Wikipedia articles.',
     tools: ['HTML', 'CSS', 'Flexbox', 'JQuery', 'JSON API'],
-    link: 'https://kdybvig.github.io/wikipedia-viewer/',
+    link: 'https://kdybvig.github.io/Wikipedia-viewer/',
     code: 'https://github.com/kdybvig/calendartrick',
-    additionalTags: ['API', 'FreeCodeCamp']
+    additionalTags: ['API', 'freeCodeCamp']
   },
   {
     image: './screenshots/calendar-trick.png',
@@ -41,44 +41,44 @@ const projects = [
     description: 'The calender trick site provides instructions for mathematically calculating the day of the week for any date.  Additionally, users can select a date from a pulldown, and the app explains the steps for calculating the day of the week for that date.',
     tools: ['HTML', 'CSS', 'CSS-Grid',],
     link: 'https://kdybvig.github.io/calendartrick/',
-    code: 'https://github.com/kdybvig/wikipedia-viewer',
+    code: 'https://github.com/kdybvig/Wikipedia-viewer',
     additionalTags: []
   },
   {
     image: './screenshots/twitch-tv-viewer.png',
     title: 'Twitch TV Viewer',
-    description: 'This app was created for a FreeCodeCamp project. This app uses the Twitch TV API to shows users which TwitchTV channels are online and the current activity on each channel.  Users can search for a channel as well as filter by only online or only offline channels.',
+    description: 'The Twitch TV Viewer is a freeCodeCamp project. It uses the Twitch TV API to shows users which TwitchTV channels are online and the current activity on each channel.  Users can search for a channel as well as filter by only online or only offline channels.',
     tools: ['HTML', 'CSS', 'JSON API'],
     link: 'https://kdybvig.github.io/twitch-tv-viewer/',
     code: 'https://github.com/kdybvig/twitch-tv-viewer',
-    additionalTags: ['API', 'FreeCodeCamp']
+    additionalTags: ['API', 'freeCodeCamp']
   },
   {
     image: './screenshots/calculator.png',
     title: 'Javascript Calculator',
-    description: 'This app was created as a FreeCodeCamp project.  It is a four function calculator which mimics the functionality of an iPhone calculator exactly.  It is programmed using only Vanilla Javascript ',
+    description: 'The Javascript Calculator is a freeCodeCamp project.  It is a four function calculator that mimics the functionality of an iPhone calculator exactly.  It is programmed using only Vanilla Javascript ',
     tools: ['HTML', 'CSS', 'Vanilla JS'],
     link: false,
     code: 'https://codepen.io/kdybvig/pen/GdWNNz',
-    additionalTags: ['FreeCodeCamp', 'math']
+    additionalTags: ['freeCodeCamp', 'math']
   },
   {
     image: './screenshots/simon.png',
     title: 'React Simon Game',
-    description: 'This game mimics the functionality of the original Simon. It plays a sound on every button press.  Users can play in two modes: strict and basic.  The game notifies the user when they win or lose. ',
+    description: 'The Simon Game is a freeCodeCamp project. It mimics the functionality of the original Simon. It plays a sound on every button press.  Users can play in two modes: strict and basic.  The game notifies the user when they win or lose. ',
     tools: ['HTML', 'CSS', 'React', 'Asynchronous Code'],
     link: false,
     code: 'https://codepen.io/kdybvig/pen/YLOxEX',
-    additionalTags: ['FreeCodeCamp', 'game']
+    additionalTags: ['freeCodeCamp', 'game']
   },
   {
     image: './screenshots/pomodoro.png',
     title: 'Pomodoro Timer',
-    description: 'This pomodoro timer runs a session timer that lasts for 25 minutes, followed by a break timer that lasts for 5 minutes.  The user can change these times to anywhere between 1 and 99 minutes, as well as pause or reset the timer.',
+    description: 'The pomodoro timer is a freeCodeCamp project. It runs a session timer that lasts for 25 minutes, followed by a break timer that lasts for 5 minutes.  The user can change these times to anywhere between 1 and 99 minutes, as well as pause or reset the timer.',
     tools: ['HTML', 'CSS', 'Vanilla JS', 'Asynchronous Code'],
     link: false,
     code: 'https://codepen.io/kdybvig/pen/GdxYMb',
-    additionalTags: ['FreeCodeCamp', 'game']
+    additionalTags: ['freeCodeCamp', 'game']
   }
 ];
 

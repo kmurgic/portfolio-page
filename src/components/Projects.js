@@ -17,7 +17,7 @@ class Projects extends Component {
   changeActive = (button) => {
     const filteredProjects = button === 'All' ?
       projects: projects.filter(project => project.tags.indexOf(button) > -1);
-    this.setState ({active: button, projects: filteredProjects});
+    this.setState ({active: button, projects: filteredProjects, page: 1});
   }
 
   changePage = (page) => {
@@ -58,11 +58,11 @@ class Projects extends Component {
     return (
       <div id='projects'>
         <div id='button-container'>
-        {this.renderButtons(['All', 'FreeCodeCamp', 'React'])}
+        {this.renderButtons(['All', 'freeCodeCamp', 'React'])}
         </div>
         <ProjectBox
          projects = {renderedProjects}/>
-         {projects.length > 6 &&
+         {this.state.projects.length > 6 &&
            <div className ='pages'>
              <p
               className = {prevClass}
