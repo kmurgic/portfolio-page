@@ -18,7 +18,6 @@ class App extends Component {
   }
 
   render() {
-    console.log('test 2')
     const linkNames = ['Home', 'Projects', 'About Me']
 
     return (
