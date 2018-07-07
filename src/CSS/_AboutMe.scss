@@ -1,9 +1,33 @@
 @import './_shared.scss';
 
-#education {
+#about-me {
   margin: 130px 10px;
   @media screen and (max-width: $break-md) {
     text-align: center;
+  }
+
+  #zuke-driving {
+    display: inline-block;
+    margin: 10px;
+    @media screen and (max-width: $break-md) {
+      margin: 10px auto;
+    }
+  }
+
+  #about-text {
+    display: inline-block;
+    width: calc(80% - 250px);
+    margin: auto 20px;
+    position: relative;
+    bottom: 10px;
+
+    font-size: 20px;
+    color: white;
+    @media screen and (max-width: $break-md) {
+      display: block;
+      width: 90%;
+      text-align: center;
+    }
   }
 
   h2 {

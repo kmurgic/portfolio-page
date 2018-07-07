@@ -22,7 +22,9 @@ class AboutMe extends Component {
 
   render () {
     return (
-      <div id='education'>
+      <div id='about-me'>
+        <img id='zuke-driving' src='./zukedriving.jpeg' width='250px'/>
+        <p id='about-text'>I am a middle school math teacher transitioning into a career as a Front End Developer. I am enrolled in the Full Stack JavaScript program at Austin Coding Academy, and teaching myself how to code using FreeCodeCamp and Codecademy.</p>
         <h2>Training</h2>
           <h3>Austin Coding Academy</h3>
             <div>
