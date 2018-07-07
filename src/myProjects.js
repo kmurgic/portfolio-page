@@ -11,7 +11,7 @@ const projects = [
   {
     image: './screenshots/board-game-finder.png',
     title: 'Board Game Finder',
-    description: "Board-game-finder is an application built with create-react-app designed to help users decide which board game to purchase. Users answer a questionnaire and the application uses data from the boardgamegeek.com XML API to find the five games that best match the user's responses.",
+    description: "Board Game Finder is an application built with create-react-app designed to help users decide which board game to purchase. Users answer a questionnaire and the application uses data from the boardgamegeek.com XML API to find the five games that best match the user's responses.",
     tools: ['HTML', 'CSS', 'Flexbox', 'React', 'Material UI', 'XML API'],
     link: 'https://kdybvig.github.io/board-game-finder/',
     code: 'https://github.com/kdybvig/board-game-finder',
