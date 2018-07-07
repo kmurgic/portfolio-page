@@ -7,7 +7,7 @@ const NavItem = (props) => {
   return (
     <li id='nav-item'>
       <NavLink
-      to = {linkTo}
+      to = {process.env.PUBLIC_URL + linkTo}
       exact = {props.name === 'Home'}
       className='link'
       activeClassName = 'selected'>

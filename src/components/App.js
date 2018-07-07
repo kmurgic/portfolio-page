@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   render() {
-
+    console.log('test 2')
     const linkNames = ['Home', 'Projects', 'About Me']
 
     return (
@@ -29,9 +29,9 @@ class App extends Component {
               {this.renderNavLinks(linkNames)}
             </ul>
           </nav>
-          <Route className='route' exact path= '/' component ={Home} />
-          <Route className='route' path = '/projects' component ={Projects} />
-          <Route className='route' path = '/aboutme' component ={AboutMe} />
+          <Route className='route' exact path= {process.env.PUBLIC_URL + '/'} component ={Home} />
+          <Route className='route' path = {process.env.PUBLIC_URL + '/projects'} component ={Projects} />
+          <Route className='route' path = {process.env.PUBLIC_URL + '/aboutme'} component ={AboutMe} />
         </div>
       </Router>
     );
