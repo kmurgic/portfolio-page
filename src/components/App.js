@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import '../CSS/App.css';
 import NavItem from './NavItem.js';
-import About from './About';
 import Home from './Home';
 import Projects from './Projects'
-import Education from './Education'
+import AboutMe from './AboutMe'
 
 
 class App extends Component {
@@ -20,7 +19,7 @@ class App extends Component {
 
   render() {
 
-    const linkNames = ['Home', 'About', 'Projects', 'Education']
+    const linkNames = ['Home', 'Projects', 'About Me']
 
     return (
       <Router className ='router'>
@@ -31,9 +30,8 @@ class App extends Component {
             </ul>
           </nav>
           <Route className='route' exact path= '/' component ={Home} />
-          <Route className='route' path = '/about' component ={About} />
           <Route className='route' path = '/projects' component ={Projects} />
-          <Route className='route' path = '/education' component ={Education} />
+          <Route className='route' path = '/aboutme' component ={AboutMe} />
         </div>
       </Router>
     );

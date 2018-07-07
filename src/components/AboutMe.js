@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Education extends Component {
+class AboutMe extends Component {
   componentWillMount() {
     document.body.style.background = '#58b url("./backgrounds/ocean.jpg") repeat fixed';
     document.body.style.backgroundSize = 'cover';
@@ -57,4 +57,4 @@ class Education extends Component {
   }
 }
 
-export default Education;
+export default AboutMe;
