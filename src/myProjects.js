@@ -21,7 +21,7 @@ const projects = [
     image: './screenshots/towers-of-hanoi.png',
     title: 'Towers Of Hanoi',
     description: "Towers of Hanoi puzzle created with Javascript and JQuery.  The game allows the user to adjust the number of stones and keeps track of the user's number of moves and time.  It also tracks the user's record shortest time and fewest moves.",
-    tools: ['HTML', 'CSS', , 'JQuery'],
+    tools: ['HTML', 'CSS', 'JQuery'],
     link: 'https://kdybvig.github.io/towers-of-hanoi',
     code: 'https://github.com/kdybvig/towers-of-hanoi',
     additionalTags: ['game']
@@ -30,7 +30,7 @@ const projects = [
     image: './screenshots/wikipedia-viewer.png',
     title: 'Wikipedia Viewer',
     description: 'The Wikipedia Viewer is a FreeCodeCamp project.  A user can click on get random article to get a random wikipedia article, or search for an article on wikipedia and see up to 12 results with descriptions and links to Wikipedia articles.',
-    tools: ['HTML', 'CSS', 'Flexbox', 'JQuery', 'Wikipedia API'],
+    tools: ['HTML', 'CSS', 'Flexbox', 'JQuery', 'JSON API'],
     link: 'https://kdybvig.github.io/wikipedia-viewer/',
     code: 'https://github.com/kdybvig/calendartrick',
     additionalTags: ['API', 'FreeCodeCamp']
@@ -47,12 +47,39 @@ const projects = [
   {
     image: './screenshots/twitch-tv-viewer.png',
     title: 'Twitch TV Viewer',
-    description: 'This app was created for a FreeCodeCamp project. This app uses async/await and the Twitch TV API to shows users which TwitchTV channels are online and the current activity on each channel.  Users can search for a channel as well as filter by only online or only offline channels.',
-    tools: ['HTML', 'CSS', 'ES7', 'TwitchTV API'],
+    description: 'This app was created for a FreeCodeCamp project. This app uses the Twitch TV API to shows users which TwitchTV channels are online and the current activity on each channel.  Users can search for a channel as well as filter by only online or only offline channels.',
+    tools: ['HTML', 'CSS', 'JSON API'],
     link: 'https://kdybvig.github.io/twitch-tv-viewer/',
     code: 'https://github.com/kdybvig/twitch-tv-viewer',
     additionalTags: ['API', 'FreeCodeCamp']
   },
+  {
+    image: './screenshots/calculator.png',
+    title: 'Javascript Calculator',
+    description: 'This app was created as a FreeCodeCamp project.  It is a four function calculator which mimics the functionality of an iPhone calculator exactly.  It is programmed using only Vanilla Javascript ',
+    tools: ['HTML', 'CSS', 'Vanilla JS'],
+    link: false,
+    code: 'https://codepen.io/kdybvig/pen/GdWNNz',
+    additionalTags: ['FreeCodeCamp', 'math']
+  },
+  {
+    image: './screenshots/simon.png',
+    title: 'React Simon Game',
+    description: 'This game mimics the functionality of the original Simon. It plays a sound on every button press.  Users can play in two modes: strict and basic.  The game notifies the user when they win or lose. ',
+    tools: ['HTML', 'CSS', 'React', 'Asynchronous Code'],
+    link: false,
+    code: 'https://codepen.io/kdybvig/pen/YLOxEX',
+    additionalTags: ['FreeCodeCamp', 'game']
+  },
+  {
+    image: './screenshots/pomodoro.png',
+    title: 'Pomodoro Timer',
+    description: 'This pomodoro timer runs a session timer that lasts for 25 minutes, followed by a break timer that lasts for 5 minutes.  The user can change these times to anywhere between 1 and 99 minutes, as well as pause or reset the timer.',
+    tools: ['HTML', 'CSS', 'Vanilla JS', 'Asynchronous Code'],
+    link: false,
+    code: 'https://codepen.io/kdybvig/pen/GdxYMb',
+    additionalTags: ['FreeCodeCamp', 'game']
+  }
 ];
 
 projects.forEach(project => {

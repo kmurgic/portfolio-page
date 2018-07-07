@@ -1,11 +1,10 @@
 import React from 'react';
-import projects from '../myProjects';
 import ProjectCard from './ProjectCard';
 
 
 const ProjectBox = (props) => {
   const renderProjects = () => {
-    const renderedProjects = projects.map((project, index) => {
+    const renderedProjects = props.projects.map((project, index) => {
       const key = `project-${index}`
       return <ProjectCard key={key} project={project} />
     });

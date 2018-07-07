@@ -28,6 +28,10 @@
         color: black;
         border: 4px inset #555;
       }
+
+      &:hover {
+        cursor: pointer;
+      }
     }
 
   }
@@ -137,4 +141,31 @@
     }
 
   }
+
+  .pages {
+    text-align: center;
+    p {
+      display: inline;
+      color: $beige-yellow;
+      font-size:20px;
+      margin: 0px 15px;
+      cursor: pointer;
+
+      &.active {
+        color: white;
+        text-decoration: underline;
+        cursor: default;
+      }
+
+      &.text {
+        position: relative;
+        bottom: 2px;
+        font-size: 18px;
+        &.hidden {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+
 }

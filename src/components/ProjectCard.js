@@ -15,8 +15,11 @@ const ProjectCard = (props) => {
     return toolBoxes
   }
 
+  const logo = /github/.test(proj.code) ?
+    'fa fa-github' : 'fa fa-codepen'
+
   return (
-    <div class='flippable'>
+    <div className='flippable'>
       <div className='project-card'>
         <Card raised = {true} className='card-front'>
           <CardMedia
@@ -32,15 +35,17 @@ const ProjectCard = (props) => {
             <h4>Built With: {renderTools(proj.tools)}</h4>
           </CardContent>
           <CardActions className='card-actions'>
-          <a
-           href={proj.link}
-           target='_blank'
-           rel = 'noopener noreferrer'><i class="fa fa-external-link-square"></i>
-          </a>
+          {proj.link &&
+            <a
+             href={proj.link}
+             target='_blank'
+             rel = 'noopener noreferrer'><i className="fa fa-external-link-square"></i>
+            </a>
+          }
           <a
            href={proj.code}
            target='_blank'
-           rel = 'noopener noreferrer'><i class="fa fa-github"></i>
+           rel = 'noopener noreferrer'><i className={logo}></i>
           </a>
           </CardActions>
         </Card>

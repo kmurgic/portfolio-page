@@ -196,6 +196,8 @@
         background-color: white;
         color: black;
         border: 4px inset #555; }
+      #projects #button-container button:hover {
+        cursor: pointer; }
   #projects #project-box {
     margin: 20px auto;
     width: auto;
@@ -260,6 +262,24 @@
             #projects #project-box .flippable .project-card .card-back .card-actions a i {
               font-size: 48px;
               color: #500080; }
+  #projects .pages {
+    text-align: center; }
+    #projects .pages p {
+      display: inline;
+      color: #D3D3A0;
+      font-size: 20px;
+      margin: 0px 15px;
+      cursor: pointer; }
+      #projects .pages p.active {
+        color: white;
+        text-decoration: underline;
+        cursor: default; }
+      #projects .pages p.text {
+        position: relative;
+        bottom: 2px;
+        font-size: 18px; }
+        #projects .pages p.text.hidden {
+          visibility: hidden; }
 
 h1 {
   margin: 100px auto 30px auto;
