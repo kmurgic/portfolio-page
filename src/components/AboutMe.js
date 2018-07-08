@@ -52,7 +52,7 @@ class AboutMe extends Component {
             </ul>
         <h2>Education</h2>
           <h3>Indiana University, Bloomington</h3>
-            <div className='course'><p>Bachelor of Arts</p><span id='md-date'>December 2019</span></div>
+            <div className='course'><p>Bachelor of Arts</p><span id='md-date'>December 2009</span></div>
           <div className='course'><p>Mathematics, Economics, and Psychology</p><span id='sm-date'>December 2009</span></div>
       </div>
     )
