@@ -9,22 +9,22 @@
   align-content: flex-start; }
 
 #about-me {
-  margin: 130px 10px; }
+  margin: 130px calc(10px + 5%); }
   @media screen and (max-width: 600px) {
     #about-me {
       text-align: center; } }
   #about-me #zuke-driving {
-    display: inline-block;
-    margin: 10px; }
+    display: block;
+    margin: 10px auto;
+    border-radius: 30%; }
     @media screen and (max-width: 600px) {
       #about-me #zuke-driving {
         margin: 10px auto; } }
   #about-me #about-text {
-    display: inline-block;
-    width: calc(80% - 250px);
-    margin: auto 20px;
-    position: relative;
-    bottom: 10px;
+    display: block;
+    text-align: center;
+    width: calc(200px + 50%);
+    margin: 20px auto;
     font-size: 20px;
     color: white; }
     @media screen and (max-width: 600px) {
@@ -43,7 +43,7 @@
   #about-me .fcc-link {
     margin-left: 35px; }
     #about-me .fcc-link a {
-      font-size: 24px;
+      font-size: 20px;
       color: #D3D3A0; }
       #about-me .fcc-link a:visited {
         color: #500080; }
@@ -62,11 +62,13 @@
       display: inline; }
     #about-me .course span {
       display: inline;
-      position: absolute;
-      left: calc(100% - 175px); }
+      float: right;
+      position: relative;
+      right: 6%; }
       @media screen and (max-width: 600px) {
         #about-me .course span {
           display: block;
+          float: none;
           position: static;
           margin: 5px auto 10px auto;
           color: yellow; } }
@@ -81,10 +83,15 @@
           #about-me .course span#sm-date {
             display: block; } }
   #about-me ul {
-    justify-content: space-between; }
+    justify-content: space-between;
+    flex-direction: column;
+    width: 102%;
+    position: relative; }
     @media screen and (max-width: 600px) {
       #about-me ul {
-        display: block; } }
+        display: block;
+        width: 100%;
+        right: 20px; } }
     #about-me ul li {
       color: white;
       flex-shrink: 0;
