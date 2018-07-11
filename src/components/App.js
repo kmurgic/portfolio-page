@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   render() {
-    const linkNames = ['Home', 'Projects', 'About Me']
+    const linkNames = ['Home', 'About Me', 'Projects']
 
     return (
       <Router className ='router'>
