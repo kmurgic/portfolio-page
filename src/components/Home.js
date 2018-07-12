@@ -11,9 +11,9 @@ class Home extends Component {
         <h1 id="name">Keith Dybvig</h1>
           <h2 id="job-title">Front-End Developer</h2>
         <div id = "media-links">
-          <a href='https://github.com/kdybvig'><i class="fa fa-github"></i> Github</a>
-          <a href='https://www.freecodecamp.org/kdybvig'><i class="fa fa-free-code-camp"></i> FreeCodeCamp</a>
-          <a href='https://codepen.io/kdybvig/'><i class="fa fa-codepen"></i> CodePen</a>
+          <a href='https://github.com/kdybvig'><i className="fa fa-github"></i> Github</a>
+          <a href='https://www.freecodecamp.org/kdybvig'><i className="fa fa-free-code-camp"></i> FreeCodeCamp</a>
+          <a href='https://codepen.io/kdybvig/'><i className="fa fa-codepen"></i> CodePen</a>
         </div>
       </div>
     )
