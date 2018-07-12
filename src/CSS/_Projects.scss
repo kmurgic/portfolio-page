@@ -59,14 +59,14 @@
       }
 
 
-      &:hover, &.hover {
+       &.hover, &:hover {
         .project-card {
           .card-front {
             transform: rotateY(180deg);
           }
           .card-back {
-            transform: rotateY(360deg);
-          }
+            transform: rotateY(0deg);
+         }
         }
       }
 
