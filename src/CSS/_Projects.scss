@@ -2,6 +2,9 @@
 
 #projects {
   margin: 150px 20px;
+  @media screen and (max-width: 350px) {
+    margin: 150px 10px;
+  }
 
   button {
     outline: none;
@@ -22,6 +25,9 @@
 
       color: white;
       font-size: 20px;
+      @media screen and (max-width: 400px) {
+        font-size: 16px;
+      }
 
       &.active {
         background-color: white;
@@ -53,7 +59,7 @@
       }
 
 
-      &:hover {
+      &:hover, &.hover {
         .project-card {
           .card-front {
             transform: rotateY(180deg);
