@@ -6,6 +6,10 @@
   display: inline;
   margin: 0 calc(4% + 5px);
   font-family: serif;
+  @media screen and (max-width: 375px) {
+    font-size: 14px;
+    margin: 0 calc(3% + 2px);
+  }
 
   .link {
     text-decoration: none;

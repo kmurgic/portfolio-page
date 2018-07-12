@@ -175,6 +175,10 @@
   display: inline;
   margin: 0 calc(4% + 5px);
   font-family: serif; }
+  @media screen and (max-width: 375px) {
+    #nav-item {
+      font-size: 14px;
+      margin: 0 calc(3% + 2px); } }
   #nav-item .link {
     text-decoration: none;
     color: #D3D3A0; }
