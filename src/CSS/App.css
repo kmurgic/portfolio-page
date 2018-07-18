@@ -235,9 +235,9 @@
       @media screen and (max-width: 400px) {
         #projects #project-box .flippable {
           margin: 20px auto; } }
-      #projects #project-box .flippable.hover .project-card .card-front, #projects #project-box .flippable:hover .project-card .card-front {
+      #projects #project-box .flippable:hover .project-card .card-front {
         transform: rotateY(180deg); }
-      #projects #project-box .flippable.hover .project-card .card-back, #projects #project-box .flippable:hover .project-card .card-back {
+      #projects #project-box .flippable:hover .project-card .card-back {
         transform: rotateY(0deg); }
       #projects #project-box .flippable .project-card {
         width: 300px;

@@ -1,12 +1,12 @@
 const projects = [
   {
-    image: './screenshots/react-checkers.png',
-    title: 'React Checkers',
-    description: 'Tournament rules checkers built with create-react-app. The board has green and cream colored squares. Red and white checker pieces are created using CSS only. Players move pieces using drag and drop.',
-    tools: ['HTML', 'CSS', 'React', 'React DnD'],
-    link: 'https://kdybvig.github.io/react-checkers/',
-    code: 'https://github.com/kdybvig/react-checkers',
-    additionalTags: ['lodash', 'drag and drop', 'game']
+    image: './screenshots/quizard.png',
+    title: 'Quizard',
+    description: 'This is a React/Redux application that allows the user to create jeopardy style quizzes.  The user enters a title, five categories and five questions for each category and the application creates a Jeopardy-style game with that information.',
+    tools: ['HTML', 'CSS', 'CSS-Grid', 'Flexbox', 'React', 'Redux', 'React Router', 'SCSS'],
+    link: 'https://kdybvig.github.io/quizard/',
+    code: 'https://github.com/kdybvig/quizard',
+    additionalTags: []
   },
   {
     image: './screenshots/board-game-finder.png',
@@ -18,13 +18,13 @@ const projects = [
     additionalTags: ['lodash']
   },
   {
-    image: './screenshots/towers-of-hanoi.png',
-    title: 'Towers Of Hanoi',
-    description: "Towers of Hanoi puzzle created with Javascript and JQuery.  The game allows the user to adjust the number of stones and keeps track of the user's number of moves and time.  It also tracks the user's record shortest time and fewest moves.",
-    tools: ['HTML', 'CSS', 'JQuery'],
-    link: 'https://kdybvig.github.io/towers-of-hanoi',
-    code: 'https://github.com/kdybvig/towers-of-hanoi',
-    additionalTags: ['game']
+    image: './screenshots/react-checkers.png',
+    title: 'React Checkers',
+    description: 'Tournament rules checkers built with create-react-app. The board has green and cream colored squares. Red and white checker pieces are created using CSS only. Players move pieces using drag and drop.',
+    tools: ['HTML', 'CSS', 'React', 'React DnD'],
+    link: 'https://kdybvig.github.io/react-checkers/',
+    code: 'https://github.com/kdybvig/react-checkers',
+    additionalTags: ['lodash', 'drag and drop', 'game']
   },
   {
     image: './screenshots/wikipedia-viewer.png',
@@ -36,15 +36,6 @@ const projects = [
     additionalTags: ['API', 'freeCodeCamp']
   },
   {
-    image: './screenshots/calendar-trick.png',
-    title: 'Calendar Trick',
-    description: 'The calender trick site provides instructions for mathematically calculating the day of the week for any date.  Additionally, users can select a date from a pulldown, and the app explains the steps for calculating the day of the week for that date.',
-    tools: ['HTML', 'CSS', 'CSS-Grid',],
-    link: 'https://kdybvig.github.io/calendartrick/',
-    code: 'https://github.com/kdybvig/Wikipedia-viewer',
-    additionalTags: []
-  },
-  {
     image: './screenshots/twitch-tv-viewer.png',
     title: 'Twitch TV Viewer',
     description: 'The Twitch TV Viewer is a freeCodeCamp project. It uses the Twitch TV API to shows users which TwitchTV channels are online and the current activity on each channel.  Users can search for a channel as well as filter by only online or only offline channels.',
@@ -52,6 +43,15 @@ const projects = [
     link: 'https://kdybvig.github.io/twitch-tv-viewer/',
     code: 'https://github.com/kdybvig/twitch-tv-viewer',
     additionalTags: ['API', 'freeCodeCamp']
+  },
+  {
+    image: './screenshots/simon.png',
+    title: 'React Simon Game',
+    description: 'The Simon Game is a freeCodeCamp project. It mimics the functionality of the original Simon. It plays a sound on every button press.  Users can play in two modes: strict and basic.  The game notifies the user when they win or lose. ',
+    tools: ['HTML', 'CSS', 'React', 'Asynchronous Code'],
+    link: false,
+    code: 'https://codepen.io/kdybvig/pen/YLOxEX',
+    additionalTags: ['freeCodeCamp', 'game']
   },
   {
     image: './screenshots/calculator.png',
@@ -63,13 +63,13 @@ const projects = [
     additionalTags: ['freeCodeCamp', 'math']
   },
   {
-    image: './screenshots/simon.png',
-    title: 'React Simon Game',
-    description: 'The Simon Game is a freeCodeCamp project. It mimics the functionality of the original Simon. It plays a sound on every button press.  Users can play in two modes: strict and basic.  The game notifies the user when they win or lose. ',
-    tools: ['HTML', 'CSS', 'React', 'Asynchronous Code'],
-    link: false,
-    code: 'https://codepen.io/kdybvig/pen/YLOxEX',
-    additionalTags: ['freeCodeCamp', 'game']
+    image: './screenshots/towers-of-hanoi.png',
+    title: 'Towers Of Hanoi',
+    description: "Towers of Hanoi puzzle created with Javascript and JQuery.  The game allows the user to adjust the number of stones and keeps track of the user's number of moves and time.  It also tracks the user's record shortest time and fewest moves.",
+    tools: ['HTML', 'CSS', 'JQuery'],
+    link: 'https://kdybvig.github.io/towers-of-hanoi',
+    code: 'https://github.com/kdybvig/towers-of-hanoi',
+    additionalTags: ['game']
   },
   {
     image: './screenshots/pomodoro.png',
