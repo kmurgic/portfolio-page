@@ -2,6 +2,8 @@
 
 This portfolio page is a React application built with React Router, Material UI and SCSS.  
 
+<img src='screenshot1.png' width='600px' height='600px'/>
+
 ## Built With
 
 * [Create React App](https://github.com/facebookincubator/create-react-app)
