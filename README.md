@@ -15,4 +15,4 @@ This portfolio page is a React application built with React Router, Material UI 
 
 * Flippable cards display information about my projects
 * Projects can be filtered by React, freeCodeCamp or API projects
-* Project built with responsive design principles in order to ensure readability on mobile devices
+* This application is built with responsive design principles in order to ensure readability on mobile devices
