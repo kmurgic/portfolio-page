@@ -58,7 +58,7 @@ class Projects extends Component {
     return (
       <div id='projects'>
         <div id='button-container'>
-        {this.renderButtons(['All', 'freeCodeCamp', 'React'])}
+        {this.renderButtons(['All', 'freeCodeCamp', 'React', 'API'])}
         </div>
         <ProjectBox
          projects = {renderedProjects}/>
