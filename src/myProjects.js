@@ -29,9 +29,9 @@ const projects = [
   {
     image: './screenshots/wikipedia-viewer.png',
     title: 'Wikipedia Viewer',
-    description: 'The Wikipedia Viewer is a freeCodeCamp project.  A user can click on get random article to get a random Wikipedia article, or search for an article on Wikipedia and see up to 12 results with descriptions and links to Wikipedia articles.',
+    description: 'The Wikipedia Viewer is a freeCodeCamp project.  A user can click on the "get random article" button to get a random Wikipedia article, or search for an article on Wikipedia and see up to 12 results with descriptions and links to Wikipedia articles.',
     tools: ['HTML', 'CSS', 'Flexbox', 'JQuery', 'JSON API'],
-    link: 'https://kdybvig.github.io/Wikipedia-viewer/',
+    link: 'https://kdybvig.github.io/wikipedia-viewer/',
     code: 'https://github.com/kdybvig/calendartrick',
     additionalTags: ['API', 'freeCodeCamp']
   },
