@@ -29,7 +29,7 @@ const projects = [
   {
     image: './screenshots/wikipedia-viewer.png',
     title: 'Wikipedia Viewer',
-    description: 'The Wikipedia Viewer is a freeCodeCamp project.  A user can click on the "get random article" button to get a random Wikipedia article, or search for an article on Wikipedia and see up to 12 results with descriptions and links to Wikipedia articles.',
+    description: 'The Wikipedia Viewer is a freeCodeCamp project.  A user can click on the "get random article" button to see a random Wikipedia article, or search for an article on Wikipedia and see up to 12 results with descriptions and links to Wikipedia articles.',
     tools: ['HTML', 'CSS', 'Flexbox', 'JQuery', 'JSON API'],
     link: 'https://kdybvig.github.io/wikipedia-viewer/',
     code: 'https://github.com/kdybvig/calendartrick',
@@ -62,7 +62,7 @@ const projects = [
     code: 'https://codepen.io/kdybvig/pen/GdWNNz',
     additionalTags: ['freeCodeCamp', 'math']
   },
-  {
+  /*{
     image: './screenshots/towers-of-hanoi.png',
     title: 'Towers Of Hanoi',
     description: "Towers of Hanoi puzzle created with Javascript and JQuery.  The game allows the user to adjust the number of stones and keeps track of the user's number of moves and time.  It also tracks the user's record shortest time and fewest moves.",
@@ -70,7 +70,7 @@ const projects = [
     link: 'https://kdybvig.github.io/towers-of-hanoi',
     code: 'https://github.com/kdybvig/towers-of-hanoi',
     additionalTags: ['game']
-  },
+  },*/
   {
     image: './screenshots/pomodoro.png',
     title: 'Pomodoro Timer',
