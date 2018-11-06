@@ -23,7 +23,7 @@ class AboutMe extends Component {
   render () {
     return (
       <div id='about-me'>
-        <img id='zuke-driving' src='./zukedriving.jpeg' width='250px'/>
+        <img id='zuke-driving' src='./zukedriving.jpeg' alt='Keith Dybvig' width='250px'/>
         <p id='about-text'>Keith Dybvig is a middle school math teacher transitioning into a career as a Web Developer. He completed the Full Stack JavaScript program at Austin Coding Academy.  He spends his free time working on personal programming projects as well as teaching himself how to code using FreeCodeCamp and Codecademy.</p>
         <h2>Training</h2>
           <h3>Austin Coding Academy</h3>
