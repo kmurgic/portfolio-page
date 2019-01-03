@@ -2,7 +2,7 @@ const projects = [
   {
     image: './screenshots/quizard.png',
     title: 'Quizard',
-    description: 'This is a React/Redux application that allows the user to create Jeopardy-style quizzes.  The user enters a title, five categories, and five questions for each category, and the application creates a Jeopardy-style game with that information.',
+    description: 'Quizard is a React/Redux application that allows the user to create Jeopardy-style quizzes.  The user enters a title, five categories, and five questions for each category, and the application creates a Jeopardy-style game with that information.',
     tools: ['HTML', 'CSS', 'CSS-Grid', 'Flexbox', 'SCSS', 'React', 'Redux', 'React Router'],
     link: 'https://kdybvig.github.io/quizard/',
     code: 'https://github.com/kdybvig/quizard',
@@ -11,7 +11,7 @@ const projects = [
   {
     image: './screenshots/board-game-finder.png',
     title: 'Board Game Finder',
-    description: "Board Game Finder is an application built with create-react-app designed to help users decide which board game to purchase. Users answer a questionnaire and the application uses data from the boardgamegeek.com XML API to find the five games that best match the user's responses.",
+    description: "Board Game Finder is an application built with React designed to help users decide which board game to purchase. Users answer a questionnaire and the application uses data from the boardgamegeek.com XML API to find the five games that best match the user's responses.",
     tools: ['HTML', 'CSS', 'Flexbox', 'React', 'Material UI', 'XML API'],
     link: 'https://kdybvig.github.io/board-game-finder/',
     code: 'https://github.com/kdybvig/board-game-finder',
@@ -20,11 +20,29 @@ const projects = [
   {
     image: './screenshots/react-checkers.png',
     title: 'React Checkers',
-    description: 'Tournament rules checkers built with create-react-app. The board has green and cream colored squares. Red and white checker pieces are created using CSS only. Players move pieces using drag and drop.',
+    description: 'Tournament rules checkers built with React. The board has green and cream colored squares. Red and white checker pieces are created using CSS only. Players move pieces using drag and drop.',
     tools: ['HTML', 'CSS', 'React', 'React DnD'],
     link: 'https://kdybvig.github.io/react-checkers/',
     code: 'https://github.com/kdybvig/react-checkers',
-    additionalTags: ['lodash', 'drag and drop', 'game']
+    additionalTags: ['lodash', 'drag and drop', 'game', 'responsive']
+  },
+  {
+    image: './screenshots/markdown-previewer.png',
+    title: 'Markdown Previewer',
+    description: 'Markdown Previewer allows the user to put github flavored markdown in an edit box and shows an HTML rendered preview.  The app is a freeCodeCamp project built with React and Redux.',
+    tools: ['HTML', 'CSS', 'React', 'Redux'],
+    link: 'https://kdybvig.github.io/Markdown-Previewer/',
+    code: 'https://github.com/kdybvig/Markdown-Previewer',
+    additionalTags: ['freeCodeCamp', 'responsive']
+  },
+  {
+    image: './screenshots/drum-machine.png',
+    title: 'Drum Machine',
+    description: 'The drum machine allows users to play sounds by clicking on buttons or pressing down keys.  It is a freeCodeCamp project built with React.',
+    tools: ['HTML', 'CSS', 'React'],
+    link: 'https://kdybvig.github.io/drum-machine/',
+    code: 'https://github.com/kdybvig/drum-machine',
+    additionalTags: ['freeCodeCamp']
   },
   {
     image: './screenshots/wikipedia-viewer.png',
