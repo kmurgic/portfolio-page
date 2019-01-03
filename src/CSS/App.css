@@ -227,6 +227,14 @@
     width: auto;
     justify-content: center;
     font-size: 14px; }
+    #projects #project-box .empty-box {
+      height: 0px;
+      margin: 0px 30px;
+      width: 300px;
+      min-width: 24vw; }
+      @media screen and (max-width: 400px) {
+        #projects #project-box .empty-box {
+          margin: 0px auto; } }
     #projects #project-box .flippable {
       perspective: 1000px;
       min-width: 24vw;

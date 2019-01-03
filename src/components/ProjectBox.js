@@ -8,6 +8,7 @@ const ProjectBox = (props) => {
       const key = `project-${index}`
       return <ProjectCard key={key} project={project} />
     });
+    while(renderedProjects.length < 6) renderedProjects.push(<div className="empty-box"></div>)
     return renderedProjects;
   }
 
