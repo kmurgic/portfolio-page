@@ -38,7 +38,7 @@ const projects = [
   {
     image: './screenshots/drum-machine.png',
     title: 'Drum Machine',
-    description: 'When a user clicks a button or presses a key, the drum machine plays a sound and displays the name of the sound.  It is a freeCodeCamp project built with React.',
+    description: 'When a user clicks a button or presses a key, the drum machine plays a sound and displays the name of the sound.  The app is a freeCodeCamp project built with React.',
     tools: ['HTML', 'CSS', 'React'],
     link: 'https://kdybvig.github.io/drum-machine/',
     code: 'https://github.com/kdybvig/drum-machine',
