@@ -2,7 +2,7 @@ const projects = [
   {
     image: './screenshots/quizard.png',
     title: 'Quizard',
-    description: 'Quizard is a React/Redux application that allows the user to create Jeopardy-style quizzes.  The user enters a title, five categories, and five questions for each category, and the application creates a Jeopardy-style game with that information.',
+    description: 'Quizard is a React/Redux application that allows the user to create and play Jeopardy-style quizzes.  The user enters a title, five categories, and five questions for each category, and the application creates a Jeopardy-style game with that information.',
     tools: ['HTML', 'CSS', 'CSS-Grid', 'Flexbox', 'SCSS', 'React', 'Redux', 'React Router'],
     link: 'https://kdybvig.github.io/quizard/',
     code: 'https://github.com/kdybvig/quizard',
