@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class AboutMe extends Component {
   componentWillMount() {
-    document.body.style.background = ' #0F6F88 radial-gradient(#1C7062, #0F5F88) fixed';
+    document.body.style.background = ' #222225';
     document.body.style.backgroundSize = 'cover';
   }
 
