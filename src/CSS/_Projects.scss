@@ -147,6 +147,10 @@
               margin-right: 5px;
               margin-top: 5px;
             }
+
+            .tool:hover {
+              cursor: pointer;
+            }
           }
 
           .card-actions {
@@ -157,12 +161,36 @@
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+
+            .linkButton {
+              position: relative;
+            }
+
             a {
               i {
                 font-size: 48px;
                 color: darken($purple, 10%);
               }
             }
+
+            .tooltip {
+              position: absolute;
+              width: auto;
+              top: 2px;
+              left: 75%;
+              padding: 0px 6px;
+              background-color: black;
+              border-radius: 6px;
+              color: white;
+              font-size: 12px;
+              visibility: hidden;
+              white-space: nowrap;
+            }
+
+            .linkButton:hover .tooltip {
+              visibility: visible;
+            }
+
           }
         }
       }

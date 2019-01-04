@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
   const renderTools = (tools) => {
     const toolBoxes = tools.map((tool,index) => {
       const key = `tool-${index}`
-      return <button key={key} className='tool'>{tool}</button>
+      return <button key={key} className='tool' onClick={()=>props.changeFilter(tool)}>{tool}</button>
     });
     return toolBoxes
   }
@@ -40,17 +40,24 @@ const ProjectCard = (props) => {
           </CardContent>
           <CardActions className='card-actions'>
           {proj.link &&
-            <a
-             href={proj.link}
-             target='_blank'
-             rel = 'noopener noreferrer'><i className="fa fa-external-link-square"></i>
-            </a>
+            <div className='linkButton'>
+              <span className='tooltip'>Live Demo</span>
+              <a
+              href={proj.link}
+              target='_blank'
+              rel = 'noopener noreferrer'>
+                <i className="fa fa-external-link-square"></i>
+              </a>
+            </div>
           }
-          <a
-           href={proj.code}
-           target='_blank'
-           rel = 'noopener noreferrer'><i className={logo}></i>
-          </a>
+          <div className='linkButton'>
+            <span className='tooltip'>View Code</span>
+            <a
+            href={proj.code}
+            target='_blank'
+            rel = 'noopener noreferrer'><i className={logo}></i>
+            </a>
+          </div>
           </CardActions>
         </Card>
       </div>

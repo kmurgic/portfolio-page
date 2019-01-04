@@ -61,7 +61,8 @@ class Projects extends Component {
         {this.renderButtons(['All', 'freeCodeCamp', 'React', 'API'])}
         </div>
         <ProjectBox
-         projects = {renderedProjects}/>
+         projects = {renderedProjects}
+         changeFilter = {this.changeActive}/>
          {this.state.projects.length > 6 &&
            <div className ='pages'>
              <p

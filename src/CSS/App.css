@@ -295,6 +295,8 @@
               padding: 1px;
               margin-right: 5px;
               margin-top: 5px; }
+            #projects #project-box .flippable .project-card .card-back h4 .tool:hover {
+              cursor: pointer; }
           #projects #project-box .flippable .project-card .card-back .card-actions {
             position: absolute;
             bottom: 10px;
@@ -303,9 +305,25 @@
             display: flex;
             flex-direction: row;
             justify-content: space-around; }
+            #projects #project-box .flippable .project-card .card-back .card-actions .linkButton {
+              position: relative; }
             #projects #project-box .flippable .project-card .card-back .card-actions a i {
               font-size: 48px;
               color: #30004d; }
+            #projects #project-box .flippable .project-card .card-back .card-actions .tooltip {
+              position: absolute;
+              width: auto;
+              top: 2px;
+              left: 75%;
+              padding: 0px 6px;
+              background-color: black;
+              border-radius: 6px;
+              color: white;
+              font-size: 12px;
+              visibility: hidden;
+              white-space: nowrap; }
+            #projects #project-box .flippable .project-card .card-back .card-actions .linkButton:hover .tooltip {
+              visibility: visible; }
   #projects .pages {
     text-align: center; }
     #projects .pages p {
