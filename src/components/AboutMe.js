@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class AboutMe extends Component {
   componentWillMount() {
-    document.body.style.background = '#58b url("./backgrounds/ocean.jpg") repeat fixed';
+    document.body.style.background = ' #0F6F88 radial-gradient(#1C7062, #0F5F88) fixed';
     document.body.style.backgroundSize = 'cover';
   }
 
@@ -24,7 +24,11 @@ class AboutMe extends Component {
     return (
       <div id='about-me'>
         <img id='zuke-driving' src='./zukedriving.jpeg' alt='Keith Dybvig' width='250px'/>
-        <p id='about-text'>Keith Dybvig is a middle school math teacher and freelance Web Developer. He graduated from Indiana University in December of 2009 and from the Full-Stack JavaScript program at Austin Coding Academy in October of 2018.</p>
+        <p id='about-text'>Keith Dybvig is a middle school math teacher and freelance web developer. He graduated from Indiana University in December of 2009 and from the Full-Stack JavaScript program at Austin Coding Academy in October of 2018.  When he is not teaching or programming, he enjoys playing board games, ultimate frisbee and disc golf as well as reading fantasy novels and non-fiction books, and of course taking walks with his dog, Zucchini.</p>
+        <h2>Education</h2>
+          <h3>Indiana University, Bloomington</h3>
+            <div className='course'><p>Bachelor of Arts</p><span id='md-date'>December 2009</span></div>
+          <div className='course'><p>Mathematics, Economics, and Psychology</p><span id='sm-date'>December 2009</span></div>
         <h2>Training</h2>
           <h3>Austin Coding Academy</h3>
             <div>
@@ -46,15 +50,6 @@ class AboutMe extends Component {
              target='_blank'
              rel = 'noopener noreferrer'>View Certifications</a>
           </p>
-
-          <h3>Codecademy</h3>
-            <ul>
-              {this.renderList(['HTML', 'CSS', 'Make a Website', 'Responsive Design', 'Command Line', 'Git', 'Introduction To Javascript', 'ReactJS: Part I', 'ReactJS: Part II'])}
-            </ul>
-        <h2>Education</h2>
-          <h3>Indiana University, Bloomington</h3>
-            <div className='course'><p>Bachelor of Arts</p><span id='md-date'>December 2009</span></div>
-          <div className='course'><p>Mathematics, Economics, and Psychology</p><span id='sm-date'>December 2009</span></div>
       </div>
     )
   }
