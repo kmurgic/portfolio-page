@@ -24,18 +24,19 @@ class AboutMe extends Component {
     return (
       <div id='about-me'>
         <img id='zuke-driving' src='./zukedriving.jpeg' alt='Keith Dybvig' width='250px'/>
-        <p id='about-text'>Keith Dybvig is a middle school math teacher transitioning into a career as a Web Developer. He completed the Full Stack JavaScript program at Austin Coding Academy.  He spends his free time working on personal programming projects as well as teaching himself how to code using FreeCodeCamp and Codecademy.</p>
+        <p id='about-text'>Keith Dybvig is a middle school math teacher and freelance Web Developer. He graduated from Indiana University in December of 2009 and from the Full-Stack JavaScript program at Austin Coding Academy in October of 2018.</p>
         <h2>Training</h2>
           <h3>Austin Coding Academy</h3>
             <div>
               {this.renderCourses([
                 {name: '211 Javascript Full-Stack (Intermediate)', date: 'June 2018'},
-                {name: '311 Javascript Full-Stack (Advanced)', date: 'September 2018'}
+                {name: '311 Javascript Full-Stack (Advanced)', date: 'October 2018'}
               ])}
             </div>
 
           <h3>FreeCodeCamp</h3>
           {this.renderCourses([
+            {name: 'Front End Libraries (300 hours)', date: 'January 2019'},
             {name: 'Algorithms and Data Structures (300 hours)', date: 'June 2018'},
             {name: 'Front End Development (400 hours)', date: 'May 2018'}
           ])}
