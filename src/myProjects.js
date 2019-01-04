@@ -39,7 +39,7 @@ const projects = [
     image: './screenshots/drum-machine.png',
     title: 'Drum Machine',
     description: 'When a user clicks a button or presses a key, the drum machine plays a sound and displays the name of the sound.  The app is a freeCodeCamp project built with React.',
-    tools: ['HTML', 'CSS', 'React'],
+    tools: ['HTML', 'CSS', 'React', 'Flexbox'],
     link: 'https://kdybvig.github.io/drum-machine/',
     code: 'https://github.com/kdybvig/drum-machine',
     additionalTags: ['freeCodeCamp']
@@ -48,7 +48,7 @@ const projects = [
     image: './screenshots/wikipedia-viewer.png',
     title: 'Wikipedia Viewer',
     description: 'The Wikipedia Viewer is a freeCodeCamp project.  A user can click on the "get random article" button to see a random Wikipedia article, or search for an article on Wikipedia and see up to 12 results with descriptions and links to Wikipedia articles.',
-    tools: ['HTML', 'CSS', 'Flexbox', 'JQuery', 'JSON API'],
+    tools: ['HTML', 'CSS', 'Flexbox', 'JQuery', 'REST API'],
     link: 'https://kdybvig.github.io/wikipedia-viewer/',
     code: 'https://github.com/kdybvig/calendartrick',
     additionalTags: ['API', 'freeCodeCamp']
@@ -57,7 +57,7 @@ const projects = [
     image: './screenshots/twitch-tv-viewer.png',
     title: 'Twitch TV Viewer',
     description: 'The Twitch TV Viewer is a freeCodeCamp project. It uses the Twitch TV API to shows users which TwitchTV channels are online and the current activity on each channel.  Users can search for a channel as well as filter by only online or only offline channels.',
-    tools: ['HTML', 'CSS', 'JSON API'],
+    tools: ['HTML', 'CSS', 'REST API'],
     link: 'https://kdybvig.github.io/twitch-tv-viewer/',
     code: 'https://github.com/kdybvig/twitch-tv-viewer',
     additionalTags: ['API', 'freeCodeCamp']
