@@ -26,17 +26,17 @@
     width: calc(200px + 50%);
     margin: 20px auto;
     font-size: 20px;
-    color: white; }
+    color: #d3d7da; }
     @media screen and (max-width: 600px) {
       #about-me #about-text {
         display: block;
         width: 90%;
         text-align: center; } }
   #about-me h2 {
-    color: #50e168;
+    color: #2ecf72;
     font-size: 36px; }
   #about-me h3 {
-    color: #FFD853;
+    color: #f1c40f;
     font-size: 24px;
     margin-left: 20px;
     margin-top: 40px; }
@@ -44,15 +44,15 @@
     margin-left: 35px; }
     #about-me .fcc-link a {
       font-size: 20px;
-      color: #D3D3A0; }
+      color: #6cb5e5; }
       #about-me .fcc-link a:visited {
-        color: #500080; }
+        color: #b787ca; }
     @media screen and (max-width: 600px) {
       #about-me .fcc-link {
         text-align: center;
         margin-left: 0px; } }
   #about-me .course {
-    color: white;
+    color: #d3d7da;
     font-size: 20px;
     margin-left: 35px; }
     @media screen and (max-width: 600px) {
@@ -71,7 +71,7 @@
           float: none;
           position: static;
           margin: 5px auto 10px auto;
-          color: yellow; } }
+          color: #f8e38c; } }
       #about-me .course span#md-date {
         display: inline; }
         @media screen and (max-width: 600px) {
@@ -93,7 +93,7 @@
         width: 100%;
         right: 20px; } }
     #about-me ul li {
-      color: white;
+      color: #d3d7da;
       flex-shrink: 0;
       width: 250px;
       text-align: left;

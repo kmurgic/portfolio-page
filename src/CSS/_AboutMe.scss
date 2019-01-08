@@ -1,4 +1,5 @@
 @import './_shared.scss';
+$text-color: lighten(#bdc3c7, 8%);
 
 #about-me {
   margin: 130px calc(10px + 5%);
@@ -21,7 +22,7 @@
     width: calc(200px + 50%);
     margin: 20px auto;
     font-size: 20px;
-    color: white;
+    color: $text-color;
     @media screen and (max-width: $break-md) {
       display: block;
       width: 90%;
@@ -30,12 +31,12 @@
   }
 
   h2 {
-    color: rgb(80, 225, 104);
+    color: lighten(#27ae60,8%);
     font-size: 36px;
   }
 
   h3 {
-    color: #FFD853;
+    color: #f1c40f;
     font-size: 24px;
     margin-left: 20px;
     margin-top: 40px;
@@ -46,9 +47,9 @@
 
     a {
       font-size: 20px;
-      color: $beige-yellow;
+      color: lighten(#3498db, 13%);
       &:visited {
-        color: $purple;
+        color: lighten(#9b59b6, 13%);
       }
     }
 
@@ -59,7 +60,7 @@
   }
 
   .course {
-    color: white;
+    color: $text-color;
     font-size: 20px;
     @media screen and (max-width: $break-md) {
     margin-left: 0px;
@@ -80,7 +81,7 @@
         float: none;
         position: static;
         margin: 5px auto 10px auto;
-        color: yellow;
+        color: lighten(#f1c40f, 26%);
       }
 
       &#md-date {
@@ -113,7 +114,7 @@
     }
 
     li {
-      color: white;
+      color: $text-color;
       flex-shrink: 0;
       width: 250px;
       text-align: left;
