@@ -24,7 +24,7 @@ class AboutMe extends Component {
     return (
       <div id='about-me'>
         <img id='zuke-driving' src='./zukedriving.jpeg' alt='Keith Dybvig' width='250px'/>
-        <p id='about-text'>Keith Dybvig is a middle school math teacher and freelance web developer. He graduated from Indiana University in December of 2009 and from the Full-Stack JavaScript program at Austin Coding Academy in October of 2018.  When he is not teaching or programming, he enjoys playing board games, ultimate frisbee and disc golf as well as reading fantasy novels and non-fiction books, and of course taking walks with his dog, Zucchini.</p>
+        <p id='about-text'>Keith Murgic is a middle school math teacher, freelance web developer, and tutor at Austin Coding Academy. He graduated from Indiana University in December of 2009 and from the Full-Stack JavaScript bootcamp at Austin Coding Academy in October of 2018.  When he is not programming or teaching, Keith enjoys playing board games, ultimate frisbee, and disc golf, as well as reading fantasy novels and taking walks with his dog, Zucchini.</p>
         <h2>Education</h2>
           <h3>Indiana University, Bloomington</h3>
             <div className='course'><p>Bachelor of Arts</p><span id='md-date'>December 2009</span></div>
@@ -45,10 +45,10 @@ class AboutMe extends Component {
             {name: 'Front End Development (400 hours)', date: 'May 2018'}
           ])}
           <p className= 'fcc-link'>
-            <a
+            {/*<a
              href="https://www.freecodecamp.org/kdybvig"
              target='_blank'
-             rel = 'noopener noreferrer'>View Certifications</a>
+            rel = 'noopener noreferrer'>View Certifications</a>*/}
           </p>
       </div>
     )
