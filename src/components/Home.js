@@ -8,7 +8,7 @@ class Home extends Component {
   render () {
     return (
       <div id="home">
-        <h1 id="name">Keith Dybvig</h1>
+        <h1 id="name">Keith Murgic</h1>
           <h2 id="job-title">Web Developer</h2>
         <div id = "media-links">
           <a href='https://github.com/kdybvig'><i className="fa fa-github"></i> Github</a>
