@@ -2,7 +2,7 @@
 
 #nav-item {
   position: relative;
-  bottom: 10px;
+  bottom: 15px;
   display: inline;
   margin: 0 calc(4% + 5px);
   font-family: serif;
@@ -13,13 +13,18 @@
 
   .link {
     text-decoration: none;
-    color: $beige-yellow;
+    //color: #2980b9;
+    color: white;
     &:hover {
-      color: $purple;
+      color: #CCC;
       cursor: pointer;
+      &.selected {
+        color: white;
+      }
     }
     &.selected {
-      color: $purple;
+      //color: lighten(#5b29c6,33%);
+      border-bottom: 2px solid white;
     }
   }
 }

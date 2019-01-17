@@ -14,13 +14,13 @@ h1 {
 
 nav {
   display: block;
-  background-color: #058;
+  background-color: darken(#16a085,15%);
   width: 100%;
   height: 50px;
   position: fixed;
   top: 0;
-  padding: 12px 0;
-  border-bottom: 1px solid #DDA;
+  padding: 12px 0px;
+  border-bottom: 2px outset #7f8c8d;
   z-index: 10;
 }
 
