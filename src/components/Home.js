@@ -10,11 +10,13 @@ class Home extends Component {
       <div id="home">
         <h1 id="name">Keith Murgic</h1>
           <h2 id="job-title">Web Developer</h2>
-        <div id = "media-links">
+        {/*<div id = "media-links">
           <a href='https://github.com/kdybvig'><i className="fa fa-github"></i> Github</a>
           <a href='https://www.freecodecamp.org/kdybvig'><i className="fa fa-free-code-camp"></i> FreeCodeCamp</a>
           <a href='https://codepen.io/kdybvig/'><i className="fa fa-codepen"></i> CodePen</a>
-        </div>
+          </div>*/}
+          <a href='/portfolio' className="button">View My Portfolio</a>
+          <a href='/about' className="button">About Me</a>
       </div>
     )
   }

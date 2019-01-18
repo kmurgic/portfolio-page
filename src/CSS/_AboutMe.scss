@@ -3,6 +3,7 @@ $text-color: lighten(#bdc3c7, 8%);
 
 #about-me {
   margin: 130px calc(10px + 5%);
+  font-family: $body;
   @media screen and (max-width: $break-md) {
     text-align: center;
   }
@@ -21,7 +22,7 @@ $text-color: lighten(#bdc3c7, 8%);
     text-align: center;
     width: calc(200px + 50%);
     margin: 20px auto;
-    font-size: 20px;
+    font-size: 18px;
     color: $text-color;
     @media screen and (max-width: $break-md) {
       display: block;
@@ -32,12 +33,14 @@ $text-color: lighten(#bdc3c7, 8%);
 
   h2 {
     color: lighten(#27ae60,8%);
+    font-family: $heading;
     font-size: 36px;
   }
 
   h3 {
     color: #f1c40f;
     font-size: 24px;
+    font-family: $body;
     margin-left: 20px;
     margin-top: 40px;
   }
@@ -61,7 +64,7 @@ $text-color: lighten(#bdc3c7, 8%);
 
   .course {
     color: $text-color;
-    font-size: 20px;
+    font-size: 18px;
     @media screen and (max-width: $break-md) {
     margin-left: 0px;
   }

@@ -24,7 +24,7 @@ class AboutMe extends Component {
     return (
       <div id='about-me'>
         <img id='zuke-driving' src='./zukedriving.jpeg' alt='Keith Dybvig' width='250px'/>
-        <p id='about-text'>Keith Murgic is a middle school math teacher, freelance web developer, and tutor at Austin Coding Academy. He graduated from Indiana University in December of 2009 and from the Full-Stack JavaScript bootcamp at Austin Coding Academy in October of 2018.  When he is not programming or teaching, Keith enjoys playing board games, ultimate frisbee, and disc golf, as well as reading fantasy novels and taking walks with his dog, Zucchini.</p>
+        <p id='about-text'>Keith Murgic is a tutor at Austin Coding Academy, freelance web developer, and middle school mathematics teacher. He graduated from Indiana University in December of 2009 and from the Full-Stack JavaScript bootcamp at Austin Coding Academy in October of 2018.  When he is not programming or teaching, Keith enjoys playing board games, ultimate frisbee, and disc golf, as well as reading fantasy novels and taking walks with his dog, Zucchini.</p>
         <h2>Education</h2>
           <h3>Indiana University, Bloomington</h3>
             <div className='course'><p>Bachelor of Arts</p><span id='md-date'>December 2009</span></div>

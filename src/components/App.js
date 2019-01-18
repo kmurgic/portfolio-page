@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   render() {
-    const linkNames = ['Home', 'About', 'Projects']
+    const linkNames = ['Home', 'About', 'Portfolio']
 
     return (
       <Router className ='router'>
@@ -29,7 +29,7 @@ class App extends Component {
             </ul>
           </nav>
           <Route className='route' exact path= {process.env.PUBLIC_URL + '/'} component ={Home} />
-          <Route className='route' path = {process.env.PUBLIC_URL + '/projects'} component ={Projects} />
+          <Route className='route' path = {process.env.PUBLIC_URL + '/portfolio'} component ={Projects} />
           <Route className='route' path = {process.env.PUBLIC_URL + '/about'} component ={AboutMe} />
         </div>
       </Router>

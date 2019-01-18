@@ -6,8 +6,8 @@
 
   #name {
     text-align: center;
-    color: $beige-yellow;
-    font: bold 36px helvetica;
+    color: lighten($beige-yellow,2%);
+    font: 42px $heading;
     text-shadow:  1px 1px black;
 
     padding: 20px;
@@ -15,7 +15,7 @@
     max-width: 80%;
 
     margin:auto;
-    background-color: $blue;
+    background-color: darken($blue,5%);
     border: 3px outset $beige-yellow;
   }
 
@@ -23,19 +23,19 @@
     position: relative;
     top: -16px;
     left: 55px;
-    margin: auto;
+    margin: 0px auto 20px auto;
 
     text-align: center;
-    color: #058;
-    font: 500 22px sans-serif;
+    color: darken($blue,10%);
+    font: 500 22px $heading;
     text-shadow: 1px 0px black;
 
     padding: 10px;
-    background-color: #DDA;
+    background-color: lighten($beige-yellow,5%);
     opacity: 1;
     width: 210px;
     max-width: 80%;
-    border: 3px outset #058;
+    border: 3px solid darken($blue,10%);
 
     @media screen and (max-width: $break-sm) {
       left: 0px;
@@ -65,6 +65,37 @@
         font-size: 32px;
         margin-right: 10px;
       }
+    }
+
+  }
+
+  .button {
+    display: inline-block;
+    background-color: darken(#2ecc71,12%);
+    border: 2px outset darken(#2ecc71,12%);
+    color: white;
+    font-family: $body;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 12px 24px;
+    border-radius: 15px;
+    text-decoration: none;
+
+    @media screen and (max-width: $break-sm) {
+      display: block;
+      max-width: 200px;
+      margin: 20px auto;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+      border: 2px inset darken(#2ecc71,15%);
     }
 
   }
