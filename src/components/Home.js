@@ -15,8 +15,8 @@ class Home extends Component {
           <a href='https://www.freecodecamp.org/kdybvig'><i className="fa fa-free-code-camp"></i> FreeCodeCamp</a>
           <a href='https://codepen.io/kdybvig/'><i className="fa fa-codepen"></i> CodePen</a>
           </div>*/}
-          <a href='/portfolio' className="button">View My Portfolio</a>
-          <a href='/about' className="button">About Me</a>
+          <a href={process.env.PUBLIC_URL + '/portfolio'} className="button">View My Portfolio</a>
+          <a href={process.env.PUBLIC_URL + '/about'} className="button">About Me</a>
       </div>
     )
   }
