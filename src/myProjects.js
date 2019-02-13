@@ -1,6 +1,6 @@
 const projects = [
   {
-    image: './screenshots/quizard.png',
+    image: './screenshots/quizard.jpg',
     title: 'Quizard',
     description: 'Quizard is a React/Redux application that allows the user to create and play Jeopardy-style quizzes.  The user enters a title, five categories, and five questions for each category, and the application creates a Jeopardy-style game with that information.',
     tools: ['HTML', 'CSS', 'CSS-Grid', 'Flexbox', 'SCSS', 'React', 'Redux', 'React Router'],
@@ -9,7 +9,7 @@ const projects = [
     additionalTags: []
   },
   {
-    image: './screenshots/board-game-finder.png',
+    image: './screenshots/board-game-finder.jpg',
     title: 'Board Game Finder',
     description: "Board Game Finder is an application built with React designed to help users decide which board game to purchase. Users answer a questionnaire and the application uses data from the boardgamegeek.com XML API to find the five games that best match the user's responses.",
     tools: ['HTML', 'CSS', 'Flexbox', 'React', 'Material UI', 'XML API'],
@@ -18,7 +18,7 @@ const projects = [
     additionalTags: ['lodash', 'API']
   },
   {
-    image: './screenshots/react-checkers.png',
+    image: './screenshots/react-checkers.jpg',
     title: 'React Checkers',
     description: 'Tournament rules checkers built with React. The board has green and cream colored squares. Red and white checker pieces are created using CSS only. Players move pieces using drag and drop.',
     tools: ['HTML', 'CSS', 'React', 'React DnD'],
@@ -27,7 +27,7 @@ const projects = [
     additionalTags: ['lodash', 'drag and drop', 'game', 'responsive']
   },
   {
-    image: './screenshots/markdown-previewer.png',
+    image: './screenshots/markdown-previewer.jpg',
     title: 'Markdown Previewer',
     description: 'Markdown Previewer allows the user to put github flavored markdown in an edit box and shows an HTML rendered preview.  The app is a freeCodeCamp project built with React and Redux.',
     tools: ['HTML', 'CSS', 'React', 'Redux'],
@@ -36,7 +36,7 @@ const projects = [
     additionalTags: ['freeCodeCamp', 'responsive']
   },
   {
-    image: './screenshots/drum-machine.png',
+    image: './screenshots/drum-machine.jpg',
     title: 'Drum Machine',
     description: 'When a user clicks a button or presses a key, the drum machine plays a sound and displays the name of the sound.  The app is a freeCodeCamp project built with React.',
     tools: ['HTML', 'CSS', 'React', 'Flexbox'],
@@ -45,7 +45,7 @@ const projects = [
     additionalTags: ['freeCodeCamp']
   },
   {
-    image: './screenshots/wikipedia-viewer.png',
+    image: './screenshots/wikipedia-viewer.jpg',
     title: 'Wikipedia Viewer',
     description: 'The Wikipedia Viewer is a freeCodeCamp project.  A user can click on the "get random article" button to see a random Wikipedia article, or search for an article on Wikipedia and see up to 12 results with descriptions and links to Wikipedia articles.',
     tools: ['HTML', 'CSS', 'Flexbox', 'JQuery', 'REST API'],
@@ -54,7 +54,7 @@ const projects = [
     additionalTags: ['API', 'freeCodeCamp']
   },
   {
-    image: './screenshots/twitch-tv-viewer.png',
+    image: './screenshots/twitch-tv-viewer.jpg',
     title: 'Twitch TV Viewer',
     description: 'The Twitch TV Viewer is a freeCodeCamp project. It uses the Twitch TV API to shows users which TwitchTV channels are online and the current activity on each channel.  Users can search for a channel as well as filter by only online or only offline channels.',
     tools: ['HTML', 'CSS', 'REST API'],
@@ -63,7 +63,7 @@ const projects = [
     additionalTags: ['API', 'freeCodeCamp']
   },
   {
-    image: './screenshots/simon.png',
+    image: './screenshots/simon.jpg',
     title: 'React Simon Game',
     description: 'The Simon Game is a freeCodeCamp project. It mimics the functionality of the original Simon. It plays a sound on every button press.  Users can play in two modes: strict and basic.  The game notifies the user when they win or lose. ',
     tools: ['HTML', 'CSS', 'React', 'Asynchronous Code'],
@@ -72,7 +72,7 @@ const projects = [
     additionalTags: ['freeCodeCamp', 'game']
   },
   {
-    image: './screenshots/calculator.png',
+    image: './screenshots/calculator.jpg',
     title: 'Javascript Calculator',
     description: 'The Javascript Calculator is a freeCodeCamp project.  It is a four function calculator that mimics the functionality of an iPhone calculator exactly.  It is programmed using only Vanilla Javascript ',
     tools: ['HTML', 'CSS', 'Vanilla JS'],
@@ -81,7 +81,7 @@ const projects = [
     additionalTags: ['freeCodeCamp', 'math']
   },
   /*{
-    image: './screenshots/towers-of-hanoi.png',
+    image: './screenshots/towers-of-hanoi.jpg',
     title: 'Towers Of Hanoi',
     description: "Towers of Hanoi puzzle created with Javascript and JQuery.  The game allows the user to adjust the number of stones and keeps track of the user's number of moves and time.  It also tracks the user's record shortest time and fewest moves.",
     tools: ['HTML', 'CSS', 'JQuery'],
@@ -90,7 +90,7 @@ const projects = [
     additionalTags: ['game']
   },*/
   {
-    image: './screenshots/pomodoro.png',
+    image: './screenshots/pomodoro.jpg',
     title: 'Pomodoro Timer',
     description: 'The pomodoro timer is a freeCodeCamp project. It runs a session timer that lasts for 25 minutes, followed by a break timer that lasts for 5 minutes.  The user can change these times to anywhere between 1 and 99 minutes, as well as pause or reset the timer.',
     tools: ['HTML', 'CSS', 'Vanilla JS', 'Asynchronous Code'],
