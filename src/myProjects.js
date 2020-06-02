@@ -3,7 +3,7 @@ const projects = [
     image: './screenshots/movieq.jpg',
     title: 'Movie Q',
     description: 'Movie Q is a React/Redux application that allows the user to create and re-order lists of movies.  Users can find movies by searching the movie database or discovering popular movies in any genre.',
-    tools: ['Bootstrap', 'React-Bootstrap', 'React', 'Redux', 'Redux-Saga', 'React-Router', 'React-Beautiful-DnD'],
+    tools: ['Bootstrap', 'React-Bootstrap', 'React', 'Redux', 'Redux-Saga', 'React-Router'],
     link: 'https://kmurgic.github.io/movieq/',
     code: 'https://github.com/kmurgic/movieq',
     additionalTags: ['API']
